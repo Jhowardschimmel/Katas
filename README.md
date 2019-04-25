@@ -1,6 +1,8 @@
 # Katas
 Kata Exercises 
-*Two Sum*
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
+Two Sum
 Write a function that takes an array of numbers (integers for the tests) and a target number. It should find two different items in the array that, when added together, give the target value. The indices of these items should then be returned in an array like so: [index1, index2].
 
 For the purposes of this kata, some tests may have multiple answers; any valid solutions will be accepted.
@@ -8,7 +10,8 @@ For the purposes of this kata, some tests may have multiple answers; any valid s
 The input will always be valid (numbers will be an array of length 2 or greater, and all of the items will be numbers; target will always be the sum of two different items from that array).
 
 Based on: http://oj.leetcode.com/problems/two-sum/
-
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 Sort the odd
 You have an array of numbers.
 Your task is to sort ascending odd numbers but even numbers must be on their places.
@@ -18,7 +21,8 @@ Zero isn't an odd number and you don't need to move it. If you have an empty arr
 Example
 
 sortArray([5, 3, 2, 8, 1, 4]) == [1, 3, 2, 8, 5, 4]
-
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 Sum of Pairs
 Given a list of integers and a single sum value, return the first two values (parse from the left please) in order of appearance that add up to form the sum.
 
@@ -45,7 +49,8 @@ sum_pairs([10, 5, 2, 3, 7, 5],         10)
 Negative numbers and duplicate numbers can and will appear.
 
 NOTE: There will also be lists tested of lengths upwards of 10,000,000 elements. Be sure your code doesn't time out.
-
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 Shortest Word
 Simple, given a string of words, return the length of the shortest word(s).
 
@@ -64,14 +69,16 @@ Calculate the row sums of this triangle from the row index (starting at index 1)
 
 rowSumOddNumbers(1); // 1
 rowSumOddNumbers(2); // 3 + 5 = 8
-
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 Sum of two lowest positive integers
 Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 integers. No floats or empty arrays will be passed.
 
 For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
 
 [10, 343445353, 3453445, 3453545353453] should return 3453455.
-
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 Dubstep
 Polycarpus works as a DJ in the best Berland nightclub, and he often uses dubstep music in his performance. Recently, he has decided to take a couple of old songs and make dubstep remixes from them.
 
@@ -90,7 +97,8 @@ Return the words of the initial song that Polycarpus used to make a dubsteb remi
 Examples
 songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
   // =>  WE ARE THE CHAMPIONS MY FRIEND
-  
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 Square every digit
 Welcome. In this kata, you are asked to square every digit of a number.
 
@@ -113,7 +121,8 @@ The input array will always be valid! (odd-length >= 3)
 Examples
 [1, 1, 2] ==> 2
 [17, 17, 3, 17, 17, 17, 17] ==> 3
-
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 Your order please
 Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
 
@@ -125,7 +134,8 @@ Examples
 "is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
 "4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
 ""  -->  ""
-
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 Sum of the first nth Series
 Task:
 Your task is to write a function which returns the sum of following series upto nth term(parameter).
@@ -142,21 +152,24 @@ Examples:
 SeriesSum(1) => 1 = "1.00"
 SeriesSum(2) => 1 + 1/4 = "1.25"
 SeriesSum(5) => 1 + 1/4 + 1/7 + 1/10 + 1/13 = "1.57"
-
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 Isograms
 An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
 
 isIsogram( "Dermatoglyphics" ) == true
 isIsogram( "aba" ) == false
 isIsogram( "moOse" ) == false // -- ignore letter case
-
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 Calculate average
 Write function avg which calculates average of numbers in given list.
 Sqaure(n) Sum
 Complete the square sum method so that it squares each number passed into it and then sums the results together.
 
 For example: squareSum([1, 2, 2]) should return 9 because 1^2 + 2^2 + 2^2 = 9.
-
+----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
 Duplicate Encoder
 The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
 
