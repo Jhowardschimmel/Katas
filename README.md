@@ -124,3 +124,47 @@ Examples
 "is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
 "4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
 ""  -->  ""
+
+Sum of the first nth Series
+Task:
+Your task is to write a function which returns the sum of following series upto nth term(parameter).
+
+Series: 1 + 1/4 + 1/7 + 1/10 + 1/13 + 1/16 +...
+Rules:
+You need to round the answer to 2 decimal places and return it as String.
+
+If the given value is 0 then it should return 0.00
+
+You will only be given Natural Numbers as arguments.
+
+Examples:
+SeriesSum(1) => 1 = "1.00"
+SeriesSum(2) => 1 + 1/4 = "1.25"
+SeriesSum(5) => 1 + 1/4 + 1/7 + 1/10 + 1/13 = "1.57"
+
+Isograms
+An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.
+
+isIsogram( "Dermatoglyphics" ) == true
+isIsogram( "aba" ) == false
+isIsogram( "moOse" ) == false // -- ignore letter case
+
+Calculate average
+Write function avg which calculates average of numbers in given list.
+Sqaure(n) Sum
+Complete the square sum method so that it squares each number passed into it and then sums the results together.
+
+For example: squareSum([1, 2, 2]) should return 9 because 1^2 + 2^2 + 2^2 = 9.
+
+Duplicate Encoder
+The goal of this exercise is to convert a string to a new string where each character in the new string is "(" if that character appears only once in the original string, or ")" if that character appears more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
+
+Examples
+"din"      =>  "((("
+"recede"   =>  "()()()"
+"Success"  =>  ")())())"
+"(( @"     =>  "))((" 
+Notes
+
+Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
+
